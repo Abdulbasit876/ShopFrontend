@@ -10,7 +10,7 @@
           ☰
         </button>
       </header>
-      <main class="flex-1 overflow-y-auto p-6 lg:p-10">
+      <main class="flex-1 w-full overflow-y-auto p-6 lg:p-10">
         <router-view />
       </main>
     </div>

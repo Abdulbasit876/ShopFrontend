@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-50 p-6 lg:p-2">
+  <div class="min-h-screen bg-gray-50">
     <!-- Header with Back -->
     <h1 class="text-3xl font-bold text-gray-900">Payment</h1>
 
@@ -212,7 +212,7 @@ const handleSaveBill = async (type) => {
     if (response.ok) {
       alert('Bill saved successfully!')
       cart.value = []
-      router.push('/dashboard')
+      router.push('/sales')
     } else {
       alert('Error saving bill')
     }

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white rounded-2xl shadow-md p-6">
+  <div class="bg-white hover:cursor-pointer rounded-2xl shadow-md p-6">
     <!-- Name and Status -->
     <div class="flex items-center justify-between mb-4">
       <h3 class="text-lg font-medium text-gray-900">{{ name }}</h3>

@@ -2,7 +2,7 @@
   eslint-disable vue/multi-word-component-names
 -->
 <template>
-  <div class="p-6">
+  <div class="">
     <h1 class="text-3xl font-bold text-gray-900 mb-2">Inventory</h1>
     <p class="text-gray-600 mb-8">Visual stock management</p>
 
@@ -35,7 +35,6 @@
     </div>
   </div>
 </template>
-
 <script setup>
 import { ref, computed } from 'vue'
 import InventoryCard from '@/components/InventoryCard.vue'
